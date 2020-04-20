@@ -8,15 +8,14 @@ namespace calculadora_vendas
     {
         public int Cod;
         public string Modelo;
-        public int Tamanho;
-
+       
         public string Marca;
 
-        public Produto(int cod, string modelo, int tamanho, string marca)
+        public Produto(int cod, string modelo,  string marca)
         {
             Cod = cod;
             Modelo = modelo;
-            Tamanho = tamanho;
+          
             Marca = marca;
             
         }
